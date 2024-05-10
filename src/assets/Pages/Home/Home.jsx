@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
 import TripData from '../TripData/TripData';
 
 const Home = () => {
    const [flightOffers, setFlightOffers] = useState([]);
 
   useEffect(() => {
-    fetch('/data.json') // Your API endpoint here
+    fetch('/data.json') //  API 
       .then(response => response.json())
       .then(data => setFlightOffers(data.flightOffer))
       .catch(error => console.error('Error fetching data:', error));

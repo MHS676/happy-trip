@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flowbite": "^2.3.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
+    "react-tailwindcss-datepicker": "^1.6.6",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
